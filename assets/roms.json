@@ -1,0 +1,10 @@
+  [
+        {
+          "img": "https://example.com/game1-cover.jpg",
+          "rom": "https://example.com/game1-rom.gbc"
+        },
+        {
+          "img": "https://example.com/game2-cover.jpg",
+          "rom": "https://example.com/game2-rom.gbc"
+        }
+      ]
