@@ -14,32 +14,6 @@
 </head>
 <body>
   
-  <div id="noroms" style="display:none; position:relative; z-index:1; background:white; width:100%; height:100%; padding:10px; font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">
-    <h2>Error: No ROMS provided</h2>
-    <p><i>This emulator requires ROMS (Gameboy games) to be provided as a URL parameter named "roms".</i></p>
-    <p>1. Create a JSON file with the format:
-      <code><pre>
-      [
-        {
-          "img": "https://example.com/game1-cover.jpg",
-          "rom": "https://example.com/game1-rom.gbc"
-        },
-        {
-          "img": "https://example.com/game2-cover.jpg",
-          "rom": "https://example.com/game2-rom.gbc"
-        }
-      ]
-      </pre></code>
-    </p>
-    <p>2. Upload the JSON file somewhere (like <a href="https://glitch.com/create" target="_blank">glitch.me</a>)</p>
-    <p>3. Provide the file link as a URL parameter named "roms":
-      <code><pre>
-      https://gameboy.webvr.link?roms=https://example.glitch.me/roms.json
-      </pre>
-      </code>
-    </p>
-  </div>
-  
   <a-scene environment="preset: forest; shadow: true; groundTexture: walkernoise; lightPosition: 1 1 1;">
     
     <a-assets>
