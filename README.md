@@ -4,9 +4,8 @@ Virtual Reality experience based on WebVR, works best with a VR headset like Ocu
 
 <img src="https://thumbs.gfycat.com/DapperWarmIbis-size_restricted.gif">
 
-### Preparing ROMS (games)
-
-*This repo does not include any ROMS (games). To use the emulator, you must prepare a few games in advance.*
+###Starting Out
+*This repo Will include Some ROMS (games). To add your games in advance.*
 
 1. Create a JSON file with the format:
   ````
@@ -21,10 +20,10 @@ Virtual Reality experience based on WebVR, works best with a VR headset like Ocu
     }
   ]
   ````
- 2. Upload the JSON file somewhere (like [glitch.me](https://glitch.com/create))
+ 2. Upload the JSON file somewhere (like [github.com](https://github.com))
  3. Provide the file link as a URL parameter named "roms":
   ```
-  https://gameboy.webvr.link?roms=https://example.glitch.me/roms.json
+  https://gameboy.webvr.link?roms=https://example.github.com/roms.json
   ```
 
 ### Play Intructions
@@ -43,7 +42,7 @@ Made after the following comment on Reddit:
 1. Prepare JSON like before
 2. Notice the changed URL (/car) and the game index to autoplay as a URL parameter named "i":
   ```
-  https://gameboy.webvr.link/car?roms=https://example.glitch.me/roms.json&i=3
+  https://gameboy.webvr.link/car?roms=https://example.github.com/roms.json&i=3
   ```
   
 ### Credits
