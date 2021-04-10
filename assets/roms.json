@@ -1,10 +1,10 @@
   [
         {
-          "img": "https://example.com/game1-cover.jpg",
-          "rom": "https://example.com/game1-rom.gbc"
+          "img": "https://github.com/lc67846/gameboy/blob/master/assets/Bug's%2BLife%2C%2BA%2B(USA)%2B(SGB%2BEnhanced)-image.png",
+          "rom": "https://github.com/lc67846/gameboy/blob/master/assets/Bug's%20Life%2C%20A%20(USA)%20(SGB%20Enhanced).gbc"
         },
         {
-          "img": "https://example.com/game2-cover.jpg",
-          "rom": "https://example.com/game2-rom.gbc"
+          "img": "https://github.com/lc67846/gameboy/blob/master/assets/Toy%2BStory%2B2%2B(USA%2C%2BEurope)%2B(SGB%2BEnhanced)-image.jpg",
+          "rom": "https://github.com/lc67846/gameboy/blob/master/assets/Toy%20Story%202%20(USA%2C%20Europe)%20(SGB%20Enhanced).gbc"
         }
       ]
